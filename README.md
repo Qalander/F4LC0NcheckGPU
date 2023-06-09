@@ -9,6 +9,18 @@ Automatic device detection: The program automatically detects all CUDA devices p
 
 Command line interface: The program is executed from the command line, which makes it easy to use and integrate into scripts or automated workflows.
 
+"Maximum parameters supported by the device: <device_name>": This line displays the full name of the CUDA device. For example, if the device is named "GeForce RTX 2080 Ti", "Maximum parameters supported by the device: GeForce RTX 2080 Ti" will be displayed.
+
+"Maximum grid size: <max_grid_size>": This line shows the maximum size of the grid (grid) in dimension X. The grid is a three-dimensional structure used to organize the thread blocks in a CUDA execution. Shown here is the maximum size in the X dimension.
+
+"Maximum block size: <max_block_size>": This line displays the maximum block size in dimension X. A block is a pool of threads running concurrently on a CUDA multiprocessor. Shown here is the maximum size in the X dimension.
+
+"Maximum threads per block: <max_threads_per_block>": This line shows the maximum number of threads that can be executed in a block. Threads are smaller processing units that run within a block on a CUDA multiprocessor.
+
+"Total global memory: <total_memory> bytes": This line displays the total amount of global memory available on the CUDA device in bytes. Global memory is shared memory used by all threads on a CUDA device.
+
+"Number of multiprocessors: <multiprocessor_count>": This line displays the number of multiprocessors on the CUDA device. Multiprocessors are parallel processing units on the device and are responsible for running blocks of threads.
+
 -------------------------------------------------------------------------------------------------------------------
 
 # F4LC0NcheckGPU
